@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/4p22-final-project-roman-sharafutdinov/static/css/main.c064d68e.css",
+    "main.js": "/4p22-final-project-roman-sharafutdinov/static/js/main.6f784bf4.js",
+    "index.html": "/4p22-final-project-roman-sharafutdinov/index.html",
+    "main.c064d68e.css.map": "/4p22-final-project-roman-sharafutdinov/static/css/main.c064d68e.css.map",
+    "main.6f784bf4.js.map": "/4p22-final-project-roman-sharafutdinov/static/js/main.6f784bf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c064d68e.css",
+    "static/js/main.6f784bf4.js"
+  ]
+}
