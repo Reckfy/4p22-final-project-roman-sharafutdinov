@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import { Routes, Route } from "react-router-dom";
-import {BrowserRouter as Router} from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import OverlayCart from "./components/OverlayCart";
@@ -54,7 +53,7 @@ function App() {
             <div className='content'>
                 {cartOpen ? <OverlayCart arrayCard={cartItems} onCloseCart={() => setCartOpen(false)} onRemove={onRemoveItem} /> : null}
                 
-                <Router basename="/4p22-final-project-roman-sharafutdinov">
+
                     <Routes>
                         <Route path="/" element={
                             <div>
@@ -82,7 +81,6 @@ function App() {
                             <Login />
                         }/>
                     </Routes>
-                </Router>
             </div>
             <Footer />
         </div>
