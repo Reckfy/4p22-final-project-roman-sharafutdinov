@@ -1,0 +1,247 @@
+*{
+    color: rgb(80, 80, 80);
+    font-size: 16px;
+    font-weight: 700px;
+
+    input:focus-visible{
+        outline: 0;
+    }
+}
+
+::placeholder{
+    color: rgb(209, 209, 209);
+}
+
+.window-auth{
+    height: 95vh;
+}
+
+.window-auth__container{
+    max-width: 500px;
+    border-radius: 10px;
+    margin:auto;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    position: relative;
+    top: 5%;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        font-weight: 700;
+        font-size: 25px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
+
+        >a{
+            position: absolute;
+            top: 25px;
+            left: 25px;
+        }
+    }
+
+    @media  screen and (max-width:510px) {
+        top: 0;
+        
+    }
+}
+
+.back-button{
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.window-auth__email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3px;
+
+    label{
+        margin-left: 30px;
+    }
+
+    input{
+        width: 90%;
+        height: 38px;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 10px;
+        color: rgb(80, 80, 80);
+        margin: 0 auto;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+}
+
+.window-auth__pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3px;
+
+    label{
+        margin-left: 30px;
+    }
+
+    input{
+        width: 90%;
+        height: 38px;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 10px;
+        color: rgb(80, 80, 80);
+        margin: 0 auto;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+}
+
+.window-auth__confirm_pass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3px;
+
+    label{
+        margin-left: 30px;
+    }
+
+    input{
+        width: 90%;
+        height: 38px;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 10px;
+        color: rgb(80, 80, 80);
+        margin: 0 auto;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+}
+
+.window-auth__gender{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+    div{
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        position: relative;
+
+        input{
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            border: 1px solid rgb(194, 193, 193);
+            transition: 0.2s all linear;
+            outline: none;
+            position: relative;
+            cursor: pointer;
+
+            &:checked{
+                box-shadow: inset 0px 0px 0px 2px white;
+                background-color: #787878;
+                border-color: rgb(80, 80, 80);
+            }
+        }
+
+        label{
+            padding-left: 10px;
+            align-items: center;
+        }
+    }
+}
+
+.window-auth__resume{
+    margin: 10px 30px;
+
+    label{
+        display: flex;
+        margin-bottom: 3px;
+    }
+
+    textarea{
+        outline: none;
+        resize: none;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 10px;
+        width: 100%;
+        height: 150px;
+        padding: 7px;
+        font-size: 20px;
+    }
+}
+
+.window-auth__agree{
+    display: flex;
+    margin: 0;
+    position: relative;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+    input{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 3px;
+        width: 17px;
+        height: 17px;
+        border: 1px solid rgb(194, 193, 193);
+        transition: 0.2s all linear;
+        outline: none;
+        position: relative;
+        cursor: pointer;
+
+        &:checked{
+            box-shadow: inset 0px 0px 0px 2px white;
+            background-color: #787878;
+            border-color: rgb(80, 80, 80);
+        }
+    }
+
+    label{
+        padding: 0;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+}
+
+.window-auth__orange_button{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.link-auth{
+    display: flex;
+    margin: 20px auto 0 auto;
+
+    p{
+        margin-right: 5px;
+    }
+
+    a{
+        opacity: 0.7;
+        transition: opacity 0.2s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 1;
+        }
+
+        p{
+            color: rgb(255, 102, 0);
+        }
+    }
+}

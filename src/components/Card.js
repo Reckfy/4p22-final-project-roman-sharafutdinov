@@ -1,11 +1,11 @@
 import React from "react";
 
-function Card({title, imgUrl, price, onPlus,}) {
+function Card({title, id, imgUrl, price, onPlus, added = false,}) {
 
-    const [isAdd, setIsAdd] = React.useState(false);
+    const [isAdd, setIsAdd] = React.useState(added);
 
     const onClickCartButton = () => {
-        onPlus({title, imgUrl, price})
+        onPlus({id, title, imgUrl, price})
         setIsAdd(!isAdd)
     }
 
@@ -16,7 +16,7 @@ function Card({title, imgUrl, price, onPlus,}) {
             <div className="pricebuy">
                 <p className="price">Цена: {price} &#8381;</p>
                 <div className="buttoncart">
-                    <img width={20} height={20} src={isAdd ? "/img/check.png" : "/img/cart.png"} alt="cart" onClick={onClickCartButton}></img>
+                    <img width={20} height={20} src={isAdd ? "./img/check.png" : "./img/cart.png"} alt="cart" onClick={onClickCartButton}></img>
                 </div>   
             </div>
         </div>
