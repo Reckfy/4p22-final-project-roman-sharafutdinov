@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/4p22-final-project-roman-sharafutdinov/static/css/main.01d56ddc.css",
-    "main.js": "/4p22-final-project-roman-sharafutdinov/static/js/main.4163625c.js",
+    "main.js": "/4p22-final-project-roman-sharafutdinov/static/js/main.1277f2c7.js",
     "index.html": "/4p22-final-project-roman-sharafutdinov/index.html",
     "main.01d56ddc.css.map": "/4p22-final-project-roman-sharafutdinov/static/css/main.01d56ddc.css.map",
-    "main.4163625c.js.map": "/4p22-final-project-roman-sharafutdinov/static/js/main.4163625c.js.map"
+    "main.1277f2c7.js.map": "/4p22-final-project-roman-sharafutdinov/static/js/main.1277f2c7.js.map"
   },
   "entrypoints": [
     "static/css/main.01d56ddc.css",
-    "static/js/main.4163625c.js"
+    "static/js/main.1277f2c7.js"
   ]
 }
