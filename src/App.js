@@ -54,7 +54,7 @@ function App() {
             <div className='content'>
                 {cartOpen ? <OverlayCart arrayCard={cartItems} onCloseCart={() => setCartOpen(false)} onRemove={onRemoveItem} /> : null}
                 
-                <Router basename="/4p22-final-project-roman-sharafutdinov/tree/main">
+                <HashRouter basename="/4p22-final-project-roman-sharafutdinov/tree/main">
                     <Routes>
                         <Route path="/" element={
                             <div>
@@ -82,7 +82,7 @@ function App() {
                             <Login />
                         }/>
                     </Routes>
-                </Router>
+                </HashRouter>
             </div>
             <Footer />
         </div>
