@@ -6,7 +6,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router basename="/reckfy.github.io/4p22-final-project-roman-sharafutdinov">
+  <Router basename="/4p22-final-project-roman-sharafutdinov">
     <App />
   </Router>
 );
